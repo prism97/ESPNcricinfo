@@ -1,0 +1,29 @@
+#container {
+  display: flex;
+  height: 100vh;
+  margin: 20px 25px 0 25px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.divs{
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+}
+
+#left {
+  width: 19%;
+  height: 50%;
+}
+
+#middle {
+  width: 57%;
+  height: 100%;
+}
+
+#right {
+  width: 19%;
+  height: 70%;
+}

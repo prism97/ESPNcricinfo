@@ -1,0 +1,26 @@
+.container-div {
+	margin: 20px auto;
+	background-color: #ffffff;
+	height: 100%;
+	width: 90%;
+	border-radius: 10px;
+}
+
+.container-div div {
+	padding: 10px;
+}
+
+.container-div h1 {
+	padding-top: 20px;
+	padding-left: 10px;
+}
+
+.container-div h3 {
+	padding-left: 10px;
+	color: #505050;
+}
+
+.attr {
+	color: #808080;
+	font-weight: bold;
+}

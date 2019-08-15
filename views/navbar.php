@@ -11,10 +11,10 @@
 <body>
 	<div id="navbar">
 		<a href="http://localhost/ESPNcricinfo/views/homepage.view.php">Home</a>
-		<a href="javascript:void(0)">Live scores</a>
-		<a href="http://localhost/ESPNcricinfo/views/series.view.php">Series</a>
-		<a href="javascript:void(0)">Teams</a>
-		<a href="javascript:void(0)">Stats</a>
+		<a href="http://localhost/ESPNcricinfo/views/livescore.php">Live scores</a>
+		<a href="http://localhost/ESPNcricinfo/views/serieslist.php">Series</a>
+		<a href="http://localhost/ESPNcricinfo/views/teams.view.php">Teams</a>
+		<a href="http://localhost/ESPNcricinfo/views/stats.view.php">Stats</a>
 
 		<?php
 			if(isset($_SESSION['curr_user_id']))
@@ -28,24 +28,7 @@
 			}
 		?>
 
-		<!-- <a href="http://localhost/ESPNcricinfo/views/login.php">Login</a>
-		<a href="http://localhost/ESPNcricinfo/views/signup.php">Signup</a> -->
 		<a href="javascript:void(0)" class="material-icons" id="search-icon">search</a> 
 	</div>
-
-	<script>
-		window.onscroll = function() {myFunction()};
-
-		var navbar = document.getElementById("navbar");
-		var sticky = navbar.offsetTop;
-
-		function myFunction() {
-		  if (window.pageYOffset >= sticky) {
-		    navbar.classList.add("sticky")
-		  } else {
-		    navbar.classList.remove("sticky");
-		  }
-		}
-	</script>
 </body>
 </html>
